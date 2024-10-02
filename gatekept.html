@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>DownloadYourFrisk</title>
+        <meta name="Unitale Archive Alpha - Gatekept Mods">
+        <meta description="These mods do not have a download link listed due to the wishes of their creators, but are still preserved privately.">
+        <style>
+            :root {
+                --center-button-width: 150px;
+                --button-width: 296px;
+            }
+            body {
+                background-color: #00040B;
+            }
+            .header {
+                font-family: Arial, Helvetica, sans-serif;
+                color: #ffffff;
+                text-align: center;
+                align-self: center;
+                font-size: 20px;
+            }
+            .button {
+                border: none;
+                color: #323232;
+                height: 26px;
+                width: var(--button-width);
+                text-align: left;
+                background-color: #f5f5f5;
+                border-radius: 4px;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                transition: background-color 0.2s;
+            }
+            .button-center {
+                border: none;
+                color: #323232;
+                height: 26px;
+                width: var(--center-button-width);
+                text-align: center;
+                background-color: #f5f5f5;
+                border-radius: 4px;
+                font-size: 14px;
+                font-family: Arial, Helvetica, sans-serif;
+                transition: background-color 0.2s;
+            }
+            .center-container {
+                display: flex;
+                justify-content: space-between;
+                padding: 0% calc(50% - 225px);
+                gap: 12px;
+            }
+            .bg-left {
+                position: fixed;
+                left: 0%;
+                z-index: -999;
+            }
+            .bg-right {
+                position: fixed;
+                right: 0%;
+                z-index: -999;
+            }
+            .button:hover {
+                background-color: #ebebeb;
+            }
+            .button:active {
+                background-color: #c0c0c0;
+            }
+            .main {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                padding: 0% 16.66%;
+            }
+            /* marquee {
+                position: absolute;
+                bottom:10%;
+                width:99%;
+                height: 30px;
+            } */
+        </style>
+    </head>
+    <body>
+        <img src="./assets/bgleft.png" class="bg-left">
+        <img src="./assets/bgright.png" class="bg-right">
+        <p class="header">mod select-o-matic 2000 (scroll list to see more mods)</p>
+        <div class="center-container">
+            <a href="./index.html"><button class="button-center">Home</button></a>
+            <a href="./random"><button class="button-center">Random Mod</button></a>
+            <a href="./gatekept.html"><button class="button-center">Gatekept Mods</button></a>
+        </div>
+        <p class="header"><b>Gatekept Unitale Mods</b><br>These mods do not have a download link listed due to the wishes of their creators, but are still preserved privately.</p>
+        <span class="main">
+            <button class="button">Sans Recreation (Eir)</button>
+        </span>
+        <!-- <marquee><a href="https://youtu.be/dQw4w9WgXcQ"><img src="./assets/bullet.png"></a></marquee> -->
+    </body>
+</html>
